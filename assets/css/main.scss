@@ -1,0 +1,37 @@
+---
+# Let's add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
+
+li img {
+	vertical-align: middle;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax"
+;
+
+.multicol-container {
+	overflow: hidden;
+	margin-left: -0.4em;
+}
+
+.multicol-col-2 {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 0.4em;
+}
+
+.multicol-col-3 {
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 0.4em;
+}
